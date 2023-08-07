@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-brand{
+    font-size: 1.5rem !important ;
+    color:#565387 !important;
+}
+.navbar a {
+font-size: 1.3rem;
+text-transform: capitalize;
+color:#565387 !important;
+}
+.menu_active{
+    border-bottom:1px solid #565387;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color:lightskyblue !important;
+}
+
